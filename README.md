@@ -115,3 +115,27 @@ After PCA, the clusters became more segregated, providing better insights into p
 ---
 
 ## Repository Structure
+```
+Machine-Learning-DS675-MIMIC-Dataset-Project/
+│
+├── data/
+│   ├── raw_data.csv           # Original (or sample) data file
+│   └── processed_data.csv     # Cleaned and pivoted dataset
+│
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_imputation_pivoting.ipynb
+│   ├── 03_feature_encoding.ipynb
+│   ├── 04_clustering.ipynb
+│   └── 05_pca_analysis.ipynb
+│
+├── src/
+│   ├── utils.py               # Helper functions for data processing
+│   ├── clustering.py          # K-Means and related clustering functions
+│   └── pca.py                 # PCA functions
+│
+├── results/
+│   └── cluster_plots/         # Visualizations of clusters before and after PCA
+│
+└── README.md                  # This README file
+```
