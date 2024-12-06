@@ -38,12 +38,13 @@ The main goals to achieve the above-mentioned objective are:
 - To apply clustering techniques (specifically K-Means) to uncover patient groups based on their vital signs.
 - To handle extensive missing values through systematic imputation.
 - To reduce data dimensionality via PCA, improving cluster segregation and interoperability.
+- 
 
 ---
 
 ## Data Description
 
-The dataset is derived from the MIMIC repository, which contains critical care patient data. The data includes various patient vitals and demographic information over multiple time points. Each patient has multiple entries, corresponding to different vital sign measurements.
+The dataset is derived from the MIMIC repository containing critical care patient data. The data includes various patient vitals and demographic information over multiple time points. Each patient has numerous entries, corresponding to different vital sign measurements.
 
 Key characteristics of the data:
 - **Patient ID**: A unique identifier for each patient (164 patients in total).
