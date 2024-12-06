@@ -29,12 +29,15 @@ This project explores patient vital signs data from the MIMIC dataset, focusing 
 
 ## Project Overview
 
-This project investigates a subset of the MIMIC dataset (Medical Information Mart for Intensive Care) for understanding patterns in patient vital signs. The main goals are:
+This project analyses a subset of the MIMIC ED Demo dataset (Medical Information Mart for Intensive Care) to understand patient vital sign patterns. The objective of our project is to predict the segregation of patient groups into different clusters based on their vitals so the patients can be identified into certain groups based on their vital signs, in real life this can help hospitals where the resources need to be diverted for a particular patient to relieve the load off the Emergency Department. Additionally using the hospital admission data we predict whether the patients have a higher probability of survival currently. This early identification of high-risk patients enables timely interventions, which can lead to better health outcomes and increased survival rates.
+
+
+The main goals to achieve the above-mentioned objective are:
 
 - To clean and preprocess the raw medical data, ensuring a robust dataset for modeling.
 - To apply clustering techniques (specifically K-Means) to uncover patient groups based on their vital signs.
 - To handle extensive missing values through systematic imputation.
-- To reduce data dimensionality via PCA, improving cluster segregation and interpretability.
+- To reduce data dimensionality via PCA, improving cluster segregation and interoperability.
 
 ---
 
