@@ -123,19 +123,9 @@ Machine-Learning-DS675-MIMIC-Dataset-Project/
 │   └── processed_data.csv     # Cleaned and pivoted dataset
 │
 ├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_imputation_pivoting.ipynb
-│   ├── 03_feature_encoding.ipynb
-│   ├── 04_clustering.ipynb
-│   └── 05_pca_analysis.ipynb
+│   ├── 01_patient_clustering.ipynb
+│   ├── 02_classification.ipynb
 │
-├── src/
-│   ├── utils.py               # Helper functions for data processing
-│   ├── clustering.py          # K-Means and related clustering functions
-│   └── pca.py                 # PCA functions
-│
-├── results/
-│   └── cluster_plots/         # Visualizations of clusters before and after PCA
 │
 └── README.md                  # This README file
 ```
